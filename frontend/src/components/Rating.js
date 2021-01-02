@@ -49,7 +49,7 @@ export default function Rating({rating,numReviews}) {
             </i>
           </span>
           <span>
-            {numReviews  +""+ 'reviews'}
+            {numReviews  + 'reviews'}
           </span>
     </div>
   )
