@@ -1,11 +1,12 @@
 import React from 'react'
 
-function MessageBox(props) {
+
+function LoadingBox() {
   return (
-    <div className={`alert alert-${props.variant || 'info'}`}>
-      {props.children}
-    </div>
+    <div className="loading">
+      <i className="fa fa-spinner fa-spin"></i> Loading...
+   </div>
   )
 }
 
-export default MessageBox
+export default LoadingBox
