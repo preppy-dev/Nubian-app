@@ -65,7 +65,7 @@ const data = {
       description:'high quality product'
     },
     {
-      name:'Puma Slim Pant',
+      name:'Chaka zulu Slim Pant',
       category:'Pants',
       image:'/images/p5.jpg',
       price:150,

@@ -1,12 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-
-function LoadingBox() {
+export default function LoadingBox() {
   return (
     <div className="loading">
       <i className="fa fa-spinner fa-spin"></i> Loading...
-   </div>
-  )
+    </div>
+  );
 }
-
-export default LoadingBox
